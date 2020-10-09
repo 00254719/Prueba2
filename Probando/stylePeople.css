@@ -1,0 +1,183 @@
+*{
+    box-sizing: inherit;
+}
+
+:root{
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./IMG/FondoPeople2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#search{
+    width: 12em;   
+    display: block;
+    color: black;
+    margin: 0.4em 1em 0 0.5em;
+    font-size: 2em ; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  li {
+    float: left;
+  }
+
+  #img-SW{
+    width: 150px;
+    height: 60px;
+    margin: 0.4rem 0 0.1rem 1rem;
+}
+
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0.3em 0.3em -0.1em 0.5em;
+    text-decoration: none;
+    font-size: 2em ;
+
+  }
+
+  
+  li #search:hover:not(.active) {
+    background-color: rgb(189, 188, 188);
+  }
+
+  .nav{
+      background-color: #D5D5D0;
+      color: #f0f0ec;
+      margin: 0.35em 2em 0 0;
+  }
+
+
+
+/*-------------------------------------------------------------------*/
+
+  .titulo{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h4{
+    color: white;
+    margin: 10px 0 10px;
+}
+
+.contenedor2{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor2 .tarjeta2 {
+    width: 250px;
+    height: 420px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background: #07031A;
+}
+
+.contenedor2 .tarjeta2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor2 .tarjeta2 img{
+    width: 250px;
+    height: 220px;
+}
+
+
+.contenedor2 .tarjeta2 h4{
+    font-weight: 600px;
+}
+
+.contenedor2 .tarjeta2 p{
+    padding: 0 1rem 2px ;
+    font-size: 16px;
+    font-weight: 20px;
+    color: white;
+    text-align: left;
+    margin: 0;
+    
+}
+
+.contenedor2 .tarjeta2 a {
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+
+.foot-view2 .btn-add:active:focus{
+    background: rgb(0, 141, 35);
+    border: solid rgb(0, 141, 35);
+}
+.foot-view2 .btn-add:focus{
+    background: rgb(0, 141, 35);
+    border: solid rgb(0, 141, 35);
+}
+
+.foot-view2  .btn-add{
+    background: #9c9c9c;;
+    width: 20%;
+    height: 30px;
+    border: 1px solid #9c9c9c;
+    margin: 0 0 0 1rem;
+    border-radius: 5px;
+    float: left;
+}
+.foot-view2  .btn-rem{
+
+    background: #9c9c9c;;
+    width: 20%;
+    height: 30px;
+    border: 1px solid #9c9c9c;
+    margin: 0 1rem 0 0;
+    border-radius: 5px;
+    float: right;
+}
+
